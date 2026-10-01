@@ -35,7 +35,8 @@ Before an artifact enters a pull request, it passes this checklist:
 4. No secrets or personal data beyond the public contact address.
 5. Accuracy: claims match what actually shipped, with verification named; internal or
    synthetic numbers are labeled as such.
-6. A date and a status (living or frozen) on every artifact.
+6. A date and a status (living or frozen) on every artifact (entries, specs, and guides).
+   The repository meta files (README, PUBLISHING, LICENSE) are exempt.
 7. Provenance noted when useful.
 
 `scripts/gate.py` checks the mechanical parts (checks 1, 2, and secret patterns). The human
