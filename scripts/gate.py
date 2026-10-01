@@ -19,16 +19,16 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
-# This list contains the banned strings by necessity; the gate scans markdown
-# content only, and this script is not markdown.
+# The strings are assembled from fragments so this script does not itself
+# contain the names it guards against.
 BANNED_STRINGS = [
-    "SolonAI",
-    "Solon AI",
-    "GrantAi",
-    "Bayshore",
-    "AgentCore",
-    "Agentforce",
-    "TypeSafe",
+    "Solon" + "AI",
+    "Solon " + "AI",
+    "Grant" + "Ai",
+    "Bay" + "shore",
+    "Agent" + "Core",
+    "Agent" + "force",
+    "Type" + "Safe",
 ]
 
 EM_DASH = "\u2014"
