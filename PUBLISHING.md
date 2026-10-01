@@ -27,8 +27,9 @@ Never published here:
 
 Before an artifact enters a pull request, it passes this checklist:
 
-1. Identity: we are "Solon"; never the bare phrase "Solon AI"; solonai.org appears only as
-   a literal web address; the string "SolonAI" appears nowhere.
+1. Identity: we are "Solon". Never pair that word with "AI" as a product name, and never
+   run the two together into one string. solonai.org appears only as a literal web
+   address.
 2. House style: no em dashes; no double-hyphen punctuation in prose; US English.
 3. No tactical content: nothing from the never-published list, in any form.
 4. No secrets or personal data beyond the public contact address.
